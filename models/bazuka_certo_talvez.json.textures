@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "green_terracotta",
+        "1": "cyan_terracotta",
+        "2": "iron_block",
+        "3": "black_concrete",
+        "4": "dark_oak_planks",
+        "5": "magma"
+      },
+      "name": "default"
+    }
+  }
+}

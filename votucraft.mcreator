@@ -196,7 +196,7 @@
       "name": "SkolFoodEaten",
       "type": "procedure",
       "sortid": 17,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "skol_food_eaten",
@@ -208,6 +208,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "Bazuca",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "bazuca"
     }
   ],
   "variable_elements": [],
@@ -231,6 +240,7 @@
       "block.votucraft.zapore": "Minério de WhatsApp",
       "item.votucraft.whatsapp": "Whatsapp",
       "subtitles.notzap": "",
+      "item.votucraft.bazuca": "Bazuca",
       "advancements.zap.title": "Passa o zap",
       "item.votucraft.espadazap": "Espada de Whatsapp",
       "advancements.zap.descr": "Adquira o lendário Whatsapp",

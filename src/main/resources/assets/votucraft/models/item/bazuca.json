@@ -1,0 +1,12 @@
+{
+  "parent": "votucraft:custom/bazuka_certo_talvez",
+  "textures": {
+    "0": "votucraft:blocks/green_terracotta",
+    "1": "votucraft:blocks/cyan_terracotta",
+    "2": "votucraft:blocks/iron_block",
+    "3": "votucraft:blocks/black_concrete",
+    "4": "votucraft:blocks/dark_oak_planks",
+    "5": "votucraft:blocks/magma",
+    "particle": "votucraft:items/texture"
+  }
+}
