@@ -46,7 +46,7 @@ public class MachadozapItem extends VotucraftModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(WhatsappItem.block, (int) (1)));
 			}
-		}, 1, 10f, new Item.Properties().group(VotucraftItemGroup.tab).isImmuneToFire()) {
+		}, 1, -3.5f, new Item.Properties().group(VotucraftItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("machadozap"));
 	}
 }
