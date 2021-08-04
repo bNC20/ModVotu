@@ -45,6 +45,42 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "picareta"
+    },
+    {
+      "name": "Machadozap",
+      "type": "tool",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "machadozap"
+    },
+    {
+      "name": "Machado",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "machado"
+    },
+    {
+      "name": "Pazap",
+      "type": "tool",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pazap"
+    },
+    {
+      "name": "Pa",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "pa"
     }
   ],
   "variable_elements": [],
@@ -52,15 +88,22 @@
   "language_map": {
     "en_us": {
       "item.votucraft.picaretazap": "Picareta de WhatsApp",
+      "item.votucraft.pazap": "Pá de WhatsApp",
+      "item.votucraft.machadozap": "Machado de WhatsApp",
+      "block.votucraft.zapore": "Minério de WhatsApp",
       "item.votucraft.whatsapp": "Whatsapp",
       "advancements.zap.title": "Passa o zap",
-      "advancements.zap.descr": "Adquira o lendário Whatsapp",
-      "block.votucraft.zapore": "Minério de WhatsApp"
+      "advancements.zap.descr": "Adquira o lendário Whatsapp"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Receitas",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "votucraft",

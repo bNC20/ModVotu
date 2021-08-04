@@ -1,7 +1,9 @@
 {
   "item.votucraft.picaretazap": "Picareta de WhatsApp",
+  "item.votucraft.pazap": "Pá de WhatsApp",
+  "item.votucraft.machadozap": "Machado de WhatsApp",
+  "block.votucraft.zapore": "Minério de WhatsApp",
   "item.votucraft.whatsapp": "Whatsapp",
   "advancements.zap.title": "Passa o zap",
-  "advancements.zap.descr": "Adquira o lendário Whatsapp",
-  "block.votucraft.zapore": "Minério de WhatsApp"
+  "advancements.zap.descr": "Adquira o lendário Whatsapp"
 }

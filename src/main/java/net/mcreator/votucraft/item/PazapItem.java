@@ -4,7 +4,7 @@ package net.mcreator.votucraft.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
-import net.minecraft.item.PickaxeItem;
+import net.minecraft.item.ShovelItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
@@ -13,26 +13,26 @@ import net.minecraft.item.IItemTier;
 import net.mcreator.votucraft.VotucraftModElements;
 
 @VotucraftModElements.ModElement.Tag
-public class PicaretazapItem extends VotucraftModElements.ModElement {
-	@ObjectHolder("votucraft:picaretazap")
+public class PazapItem extends VotucraftModElements.ModElement {
+	@ObjectHolder("votucraft:pazap")
 	public static final Item block = null;
-	public PicaretazapItem(VotucraftModElements instance) {
-		super(instance, 2);
+	public PazapItem(VotucraftModElements instance) {
+		super(instance, 6);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new PickaxeItem(new IItemTier() {
+		elements.items.add(() -> new ShovelItem(new IItemTier() {
 			public int getMaxUses() {
 				return 2048;
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 14f;
 			}
 
 			public float getAttackDamage() {
-				return 6f;
+				return 3f;
 			}
 
 			public int getHarvestLevel() {
@@ -40,13 +40,13 @@ public class PicaretazapItem extends VotucraftModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 2;
+				return 15;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(WhatsappItem.block, (int) (1)));
 			}
 		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS).isImmuneToFire()) {
-		}.setRegistryName("picaretazap"));
+		}.setRegistryName("pazap"));
 	}
 }

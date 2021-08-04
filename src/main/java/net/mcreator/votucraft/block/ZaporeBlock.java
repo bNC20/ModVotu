@@ -119,7 +119,7 @@ public class ZaporeBlock extends VotucraftModElements.ModElement {
 		static final com.mojang.serialization.Codec<CustomRuleTest> codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
 		public boolean test(BlockState blockAt, Random random) {
 			boolean blockCriteria = false;
-			if (blockAt.getBlock() == Blocks.STONE.getDefaultState().getBlock())
+			if (blockAt.getBlock() == Blocks.END_STONE.getDefaultState().getBlock())
 				blockCriteria = true;
 			return blockCriteria;
 		}
@@ -145,8 +145,8 @@ public class ZaporeBlock extends VotucraftModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 8)).range(24)
-					.square().func_242731_b(10);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 8)).range(256)
+					.square().func_242731_b(4);
 			event.getRegistry().register(feature.setRegistryName("zapore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("votucraft:zapore"), configuredFeature);
 		}
