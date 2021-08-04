@@ -28,7 +28,7 @@ public class PicaretazapItem extends VotucraftModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 4f;
+				return 14f;
 			}
 
 			public float getAttackDamage() {
