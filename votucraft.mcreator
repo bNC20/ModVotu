@@ -88,12 +88,12 @@
   "language_map": {
     "en_us": {
       "item.votucraft.picaretazap": "Picareta de WhatsApp",
-      "item.votucraft.pazap": "Pá de WhatsApp",
-      "item.votucraft.machadozap": "Machado de WhatsApp",
-      "block.votucraft.zapore": "Minério de WhatsApp",
       "item.votucraft.whatsapp": "Whatsapp",
+      "item.votucraft.pazap": "Pá de WhatsApp",
       "advancements.zap.title": "Passa o zap",
-      "advancements.zap.descr": "Adquira o lendário Whatsapp"
+      "advancements.zap.descr": "Adquira o lendário Whatsapp",
+      "item.votucraft.machadozap": "Machado de WhatsApp",
+      "block.votucraft.zapore": "Minério de WhatsApp"
     }
   },
   "foldersRoot": {
