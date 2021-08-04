@@ -128,13 +128,13 @@
       "registry_name": "espada"
     },
     {
-      "name": "WhatsappTickDeQuandoOItemEstiverNaMao",
+      "name": "WhatsappQuandoAEntidadeVivaEAtingidaComOItem",
       "type": "procedure",
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "whatsapp_tick_de_quando_o_item_estiver_na_mao",
+      "registry_name": "whatsapp_quando_a_entidade_viva_e_atingida_com_o_item",
       "metadata": {
         "dependencies": [
           {
