@@ -182,6 +182,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "zapblockuncraft"
+    },
+    {
+      "name": "Skol",
+      "type": "food",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "skol"
+    },
+    {
+      "name": "SkolFoodEaten",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "skol_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
