@@ -155,6 +155,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "Zapblock",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zapblock"
     }
   ],
   "variable_elements": [],
@@ -171,16 +180,17 @@
   "language_map": {
     "en_us": {
       "item.votucraft.picaretazap": "Picareta de WhatsApp",
-      "item.votucraft.whatsapp": "Whatsapp",
       "item.votucraft.enchadazap": "Enxada de WhatsApp",
-      "subtitles.notzap": "",
       "itemGroup.tabvotucraft": "Votucraft",
       "item.votucraft.pazap": "Pá de WhatsApp",
+      "block.votucraft.zapore": "Minério de WhatsApp",
+      "item.votucraft.machadozap": "Machado de WhatsApp",
+      "item.votucraft.whatsapp": "Whatsapp",
+      "subtitles.notzap": "",
       "advancements.zap.title": "Passa o zap",
       "item.votucraft.espadazap": "Espadazap",
       "advancements.zap.descr": "Adquira o lendário Whatsapp",
-      "item.votucraft.machadozap": "Machado de WhatsApp",
-      "block.votucraft.zapore": "Minério de WhatsApp"
+      "block.votucraft.zapblock": "Zapblock"
     }
   },
   "foldersRoot": {

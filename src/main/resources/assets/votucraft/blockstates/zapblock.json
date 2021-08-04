@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "votucraft:block/zapblock"
+    }
+  }
+}
