@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "votucraft:blocks/zap",
+    "up": "votucraft:blocks/zap",
+    "north": "votucraft:blocks/zap",
+    "east": "votucraft:blocks/zap",
+    "south": "votucraft:blocks/zap",
+    "west": "votucraft:blocks/zap",
+    "particle": "votucraft:blocks/zap"
+  }
+}

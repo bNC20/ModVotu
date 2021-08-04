@@ -1,0 +1,83 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Whatsapp",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "whatsapp"
+    },
+    {
+      "name": "ZAP",
+      "type": "achievement",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zap"
+    },
+    {
+      "name": "Zapore",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zapore"
+    },
+    {
+      "name": "Picaretazap",
+      "type": "tool",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "picaretazap"
+    },
+    {
+      "name": "Picareta",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "picareta"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.votucraft.picaretazap": "Picareta de WhatsApp",
+      "item.votucraft.whatsapp": "Whatsapp",
+      "advancements.zap.title": "Passa o zap",
+      "advancements.zap.descr": "Adquira o lendário Whatsapp",
+      "block.votucraft.zapore": "Minério de WhatsApp"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "votucraft",
+    "modName": "Votucraft",
+    "version": "1.0.0",
+    "author": "bruno, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.votucraft",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100118117
+}
