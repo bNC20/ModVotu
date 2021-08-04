@@ -1,0 +1,13 @@
+{
+  "group": "votucraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "votucraft:zapblock"
+    }
+  ],
+  "result": {
+    "item": "votucraft:whatsapp",
+    "count": 9
+  }
+}

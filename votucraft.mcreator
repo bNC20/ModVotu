@@ -173,6 +173,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "zapblockcraft"
+    },
+    {
+      "name": "Zapblockuncraft",
+      "type": "recipe",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "zapblockuncraft"
     }
   ],
   "variable_elements": [],
@@ -192,8 +201,8 @@
       "item.votucraft.enchadazap": "Enxada de WhatsApp",
       "itemGroup.tabvotucraft": "Votucraft",
       "item.votucraft.pazap": "Pá de WhatsApp",
-      "block.votucraft.zapore": "Minério de WhatsApp",
       "item.votucraft.machadozap": "Machado de WhatsApp",
+      "block.votucraft.zapore": "Minério de WhatsApp",
       "item.votucraft.whatsapp": "Whatsapp",
       "subtitles.notzap": "",
       "advancements.zap.title": "Passa o zap",
