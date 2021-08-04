@@ -31,8 +31,8 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onItemInUseTick": {
-      "name": "WhatsappTickDeQuandoOItemEstiverNaMao"
+    "onEntityHitWith": {
+      "name": "WhatsappQuandoAEntidadeVivaEAtingidaComOItem"
     }
   }
 }
