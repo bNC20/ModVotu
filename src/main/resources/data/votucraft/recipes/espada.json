@@ -1,0 +1,24 @@
+{
+  "group": "votucraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "votucraft:whatsapp"
+    },
+    "1": {
+      "item": "votucraft:whatsapp"
+    },
+    "2": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "votucraft:espadazap",
+    "count": 1
+  }
+}

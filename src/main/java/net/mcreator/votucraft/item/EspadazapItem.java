@@ -4,25 +4,25 @@ package net.mcreator.votucraft.item;
 import net.minecraftforge.registries.ObjectHolder;
 
 import net.minecraft.item.crafting.Ingredient;
+import net.minecraft.item.SwordItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
-import net.minecraft.item.HoeItem;
 
 import net.mcreator.votucraft.itemgroup.VotucraftItemGroup;
 import net.mcreator.votucraft.VotucraftModElements;
 
 @VotucraftModElements.ModElement.Tag
-public class EnchadazapItem extends VotucraftModElements.ModElement {
-	@ObjectHolder("votucraft:enchadazap")
+public class EspadazapItem extends VotucraftModElements.ModElement {
+	@ObjectHolder("votucraft:espadazap")
 	public static final Item block = null;
-	public EnchadazapItem(VotucraftModElements instance) {
-		super(instance, 8);
+	public EspadazapItem(VotucraftModElements instance) {
+		super(instance, 11);
 	}
 
 	@Override
 	public void initElements() {
-		elements.items.add(() -> new HoeItem(new IItemTier() {
+		elements.items.add(() -> new SwordItem(new IItemTier() {
 			public int getMaxUses() {
 				return 2048;
 			}
@@ -32,7 +32,7 @@ public class EnchadazapItem extends VotucraftModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 3f;
+				return 16f;
 			}
 
 			public int getHarvestLevel() {
@@ -40,13 +40,13 @@ public class EnchadazapItem extends VotucraftModElements.ModElement {
 			}
 
 			public int getEnchantability() {
-				return 15;
+				return 2;
 			}
 
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(WhatsappItem.block, (int) (1)));
 			}
-		}, 0, -3f, new Item.Properties().group(VotucraftItemGroup.tab).isImmuneToFire()) {
-		}.setRegistryName("enchadazap"));
+		}, 3, -2f, new Item.Properties().group(VotucraftItemGroup.tab).isImmuneToFire()) {
+		}.setRegistryName("espadazap"));
 	}
 }

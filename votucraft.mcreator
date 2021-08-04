@@ -108,6 +108,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "enchadazap"
+    },
+    {
+      "name": "Espadazap",
+      "type": "tool",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "espadazap"
+    },
+    {
+      "name": "Espada",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "espada"
     }
   ],
   "variable_elements": [],
@@ -120,6 +138,7 @@
       "itemGroup.tabvotucraft": "Votucraft",
       "item.votucraft.pazap": "Pá de WhatsApp",
       "advancements.zap.title": "Passa o zap",
+      "item.votucraft.espadazap": "Espadazap",
       "advancements.zap.descr": "Adquira o lendário Whatsapp",
       "item.votucraft.machadozap": "Machado de WhatsApp",
       "block.votucraft.zapore": "Minério de WhatsApp"
