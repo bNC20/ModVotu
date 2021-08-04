@@ -37,7 +37,7 @@
       "Minério estranho",
       "descoberto por \"Marcos Zukerbergs\""
     ],
-    "hardness": 1.0,
+    "hardness": 30.0,
     "resistance": 50.0,
     "hasGravity": false,
     "isWaterloggable": false,

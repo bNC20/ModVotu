@@ -32,7 +32,7 @@ public class EspadazapItem extends VotucraftModElements.ModElement {
 			}
 
 			public float getAttackDamage() {
-				return 16f;
+				return 14f;
 			}
 
 			public int getHarvestLevel() {
