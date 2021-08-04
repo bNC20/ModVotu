@@ -1,0 +1,37 @@
+{
+  "group": "votucraft",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "votucraft:whatsapp"
+    },
+    {
+      "item": "votucraft:whatsapp"
+    },
+    {
+      "item": "votucraft:whatsapp"
+    },
+    {
+      "item": "votucraft:whatsapp"
+    },
+    {
+      "item": "votucraft:whatsapp"
+    },
+    {
+      "item": "votucraft:whatsapp"
+    },
+    {
+      "item": "votucraft:whatsapp"
+    },
+    {
+      "item": "votucraft:whatsapp"
+    },
+    {
+      "item": "votucraft:whatsapp"
+    }
+  ],
+  "result": {
+    "item": "votucraft:zapblock",
+    "count": 1
+  }
+}
