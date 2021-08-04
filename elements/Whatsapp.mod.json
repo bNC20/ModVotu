@@ -8,7 +8,7 @@
     "name": "Whatsapp",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:Votucraft"
     },
     "stackSize": 64,
     "enchantability": 0,

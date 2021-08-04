@@ -1,0 +1,27 @@
+{
+  "group": "votucraft",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "votucraft:whatsapp"
+    },
+    "1": {
+      "item": "votucraft:whatsapp"
+    },
+    "3": {
+      "item": "minecraft:diamond"
+    },
+    "5": {
+      "item": "minecraft:netherite_ingot"
+    }
+  },
+  "result": {
+    "item": "votucraft:enchadazap",
+    "count": 1
+  }
+}

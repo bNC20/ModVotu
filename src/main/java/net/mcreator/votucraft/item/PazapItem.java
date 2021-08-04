@@ -6,10 +6,10 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraft.item.crafting.Ingredient;
 import net.minecraft.item.ShovelItem;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.item.IItemTier;
 
+import net.mcreator.votucraft.itemgroup.VotucraftItemGroup;
 import net.mcreator.votucraft.VotucraftModElements;
 
 @VotucraftModElements.ModElement.Tag
@@ -28,7 +28,7 @@ public class PazapItem extends VotucraftModElements.ModElement {
 			}
 
 			public float getEfficiency() {
-				return 14f;
+				return 16f;
 			}
 
 			public float getAttackDamage() {
@@ -46,7 +46,7 @@ public class PazapItem extends VotucraftModElements.ModElement {
 			public Ingredient getRepairMaterial() {
 				return Ingredient.fromStacks(new ItemStack(WhatsappItem.block, (int) (1)));
 			}
-		}, 1, -3f, new Item.Properties().group(ItemGroup.TOOLS).isImmuneToFire()) {
+		}, 1, -3f, new Item.Properties().group(VotucraftItemGroup.tab).isImmuneToFire()) {
 		}.setRegistryName("pazap"));
 	}
 }

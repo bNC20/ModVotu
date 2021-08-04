@@ -81,6 +81,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "pa"
+    },
+    {
+      "name": "Enchadazap",
+      "type": "tool",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enchadazap"
+    },
+    {
+      "name": "Enxada",
+      "type": "recipe",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "enxada"
+    },
+    {
+      "name": "Votucraft",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "votucraft"
     }
   ],
   "variable_elements": [],
@@ -88,12 +115,14 @@
   "language_map": {
     "en_us": {
       "item.votucraft.picaretazap": "Picareta de WhatsApp",
-      "item.votucraft.pazap": "Pá de WhatsApp",
-      "item.votucraft.machadozap": "Machado de WhatsApp",
-      "block.votucraft.zapore": "Minério de WhatsApp",
       "item.votucraft.whatsapp": "Whatsapp",
+      "item.votucraft.enchadazap": "Enxada de WhatsApp",
+      "itemGroup.tabvotucraft": "Votucraft",
+      "item.votucraft.pazap": "Pá de WhatsApp",
       "advancements.zap.title": "Passa o zap",
-      "advancements.zap.descr": "Adquira o lendário Whatsapp"
+      "advancements.zap.descr": "Adquira o lendário Whatsapp",
+      "item.votucraft.machadozap": "Machado de WhatsApp",
+      "block.votucraft.zapore": "Minério de WhatsApp"
     }
   },
   "foldersRoot": {
