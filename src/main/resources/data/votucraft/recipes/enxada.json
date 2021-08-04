@@ -21,7 +21,11 @@
     }
   },
   "result": {
+<<<<<<< HEAD
     "item": "votucraft:deleted_mod_element",
+=======
+    "item": "votucraft:enxadazap",
+>>>>>>> branch 'master' of https://github.com/bNC20/ModVotu.git
     "count": 1
   }
 }
