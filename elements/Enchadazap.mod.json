@@ -3,14 +3,14 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "texture": "zap_shovel",
+    "texture": "zap_hoe",
     "customModelName": "Normal",
-    "name": "Pá de WhatsApp",
+    "name": "Enxada de WhatsApp",
     "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Votucraft"
     },
-    "toolType": "Spade",
+    "toolType": "Hoe",
     "harvestLevel": 4,
     "efficiency": 16.0,
     "attackSpeed": 1.0,

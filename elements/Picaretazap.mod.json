@@ -8,11 +8,11 @@
     "name": "Picareta de WhatsApp",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:Votucraft"
     },
     "toolType": "Pickaxe",
     "harvestLevel": 4,
-    "efficiency": 14.0,
+    "efficiency": 16.0,
     "attackSpeed": 1.0,
     "enchantability": 2,
     "damageVsEntity": 8.0,
