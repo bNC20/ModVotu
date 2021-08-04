@@ -9,13 +9,17 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
+import net.minecraft.entity.Entity;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
+import net.mcreator.votucraft.procedures.WhatsappTickDeQuandoOItemEstiverNaMaoProcedure;
 import net.mcreator.votucraft.itemgroup.VotucraftItemGroup;
 import net.mcreator.votucraft.VotucraftModElements;
 
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 
 @VotucraftModElements.ModElement.Tag
 public class WhatsappItem extends VotucraftModElements.ModElement {
@@ -54,6 +58,22 @@ public class WhatsappItem extends VotucraftModElements.ModElement {
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
 			list.add(new StringTextComponent("Cristal de Zap"));
+		}
+
+		@Override
+		public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
+			super.inventoryTick(itemstack, world, entity, slot, selected);
+			double x = entity.getPosX();
+			double y = entity.getPosY();
+			double z = entity.getPosZ();
+			if (selected) {
+				Map<String, Object> $_dependencies = new HashMap<>();
+				$_dependencies.put("x", x);
+				$_dependencies.put("y", y);
+				$_dependencies.put("z", z);
+				$_dependencies.put("world", world);
+				WhatsappTickDeQuandoOItemEstiverNaMaoProcedure.executeProcedure($_dependencies);
+			}
 		}
 	}
 }
