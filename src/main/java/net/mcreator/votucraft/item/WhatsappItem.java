@@ -9,11 +9,11 @@ import net.minecraft.util.text.ITextComponent;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.entity.Entity;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
-import net.mcreator.votucraft.procedures.WhatsappTickDeQuandoOItemEstiverNaMaoProcedure;
+import net.mcreator.votucraft.procedures.WhatsappQuandoAEntidadeVivaEAtingidaComOItemProcedure;
 import net.mcreator.votucraft.itemgroup.VotucraftItemGroup;
 import net.mcreator.votucraft.VotucraftModElements;
 
@@ -61,19 +61,21 @@ public class WhatsappItem extends VotucraftModElements.ModElement {
 		}
 
 		@Override
-		public void inventoryTick(ItemStack itemstack, World world, Entity entity, int slot, boolean selected) {
-			super.inventoryTick(itemstack, world, entity, slot, selected);
+		public boolean hitEntity(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
+			boolean retval = super.hitEntity(itemstack, entity, sourceentity);
 			double x = entity.getPosX();
 			double y = entity.getPosY();
 			double z = entity.getPosZ();
-			if (selected) {
+			World world = entity.world;
+			{
 				Map<String, Object> $_dependencies = new HashMap<>();
 				$_dependencies.put("x", x);
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				WhatsappTickDeQuandoOItemEstiverNaMaoProcedure.executeProcedure($_dependencies);
+				WhatsappQuandoAEntidadeVivaEAtingidaComOItemProcedure.executeProcedure($_dependencies);
 			}
+			return retval;
 		}
 	}
 }
