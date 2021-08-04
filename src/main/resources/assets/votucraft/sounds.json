@@ -1,1 +1,11 @@
-{}
+{
+  "notzap": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "votucraft:assobio_whatsapp",
+        "stream": false
+      }
+    ]
+  }
+}

@@ -126,15 +126,54 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "espada"
+    },
+    {
+      "name": "WhatsappQuandoClicarComOBotaoDireitoNoAr",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "whatsapp_quando_clicar_com_o_botao_direito_no_ar",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
-  "sound_elements": [],
+  "sound_elements": [
+    {
+      "name": "notzap",
+      "files": [
+        "assobio_whatsapp"
+      ],
+      "category": "master",
+      "subtitle": ""
+    }
+  ],
   "language_map": {
     "en_us": {
       "item.votucraft.picaretazap": "Picareta de WhatsApp",
       "item.votucraft.whatsapp": "Whatsapp",
       "item.votucraft.enchadazap": "Enxada de WhatsApp",
+      "subtitles.notzap": "",
       "itemGroup.tabvotucraft": "Votucraft",
       "item.votucraft.pazap": "Pá de WhatsApp",
       "advancements.zap.title": "Passa o zap",
