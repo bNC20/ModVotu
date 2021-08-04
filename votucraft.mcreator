@@ -182,6 +182,32 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "zapblockuncraft"
+    },
+    {
+      "name": "SkolFoodEaten",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "skol_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Skol",
+      "type": "food",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "skol"
     }
   ],
   "variable_elements": [],
@@ -203,6 +229,7 @@
       "item.votucraft.pazap": "Pá de WhatsApp",
       "item.votucraft.machadozap": "Machado de WhatsApp",
       "block.votucraft.zapore": "Minério de WhatsApp",
+      "item.votucraft.skol": "Skol",
       "item.votucraft.whatsapp": "Whatsapp",
       "subtitles.notzap": "",
       "advancements.zap.title": "Passa o zap",
