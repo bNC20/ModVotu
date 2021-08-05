@@ -3,7 +3,7 @@
   "_type": "gun",
   "definition": {
     "renderType": 0,
-    "texture": "ak47",
+    "texture": "ak47certo",
     "customModelName": "Normal",
     "name": "AK-47",
     "specialInfo": [],
@@ -17,7 +17,7 @@
     "shootConstantly": true,
     "usageCount": 100,
     "actionSound": {
-      "value": "CUSTOM:notzap"
+      "value": "CUSTOM:tiro"
     },
     "hasGlow": false,
     "animation": "block",

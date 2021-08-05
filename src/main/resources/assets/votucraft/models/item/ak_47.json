@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "votucraft:items/ak47"
+    "layer0": "votucraft:items/ak47certo"
   },
   "display": {
     "thirdperson_righthand": {

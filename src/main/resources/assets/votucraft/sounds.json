@@ -7,5 +7,14 @@
         "stream": false
       }
     ]
+  },
+  "tiro": {
+    "category": "master",
+    "sounds": [
+      {
+        "name": "votucraft:barulhoak",
+        "stream": false
+      }
+    ]
   }
 }

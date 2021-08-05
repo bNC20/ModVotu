@@ -46,6 +46,7 @@ public class VotucraftModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 	public VotucraftModElements() {
 		sounds.put(new ResourceLocation("votucraft", "notzap"), new net.minecraft.util.SoundEvent(new ResourceLocation("votucraft", "notzap")));
+		sounds.put(new ResourceLocation("votucraft", "tiro"), new net.minecraft.util.SoundEvent(new ResourceLocation("votucraft", "tiro")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("votucraft").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();
