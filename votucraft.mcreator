@@ -217,6 +217,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "bazuca"
+    },
+    {
+      "name": "Ak47",
+      "type": "gun",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "ak_47"
     }
   ],
   "variable_elements": [],
@@ -241,6 +250,7 @@
       "item.votucraft.whatsapp": "Whatsapp",
       "subtitles.notzap": "",
       "item.votucraft.bazuca": "Bazuca",
+      "item.votucraft.ak_47": "AK-47",
       "advancements.zap.title": "Passa o zap",
       "item.votucraft.espadazap": "Espada de Whatsapp",
       "advancements.zap.descr": "Adquira o lendário Whatsapp",
